@@ -3,5 +3,7 @@ class StaticPagesController < ApplicationController
   end
 
   def help
+    @somevar = 'tr-that'
+    @data = "Felix"
   end
 end
